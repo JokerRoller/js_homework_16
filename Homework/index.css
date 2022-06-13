@@ -1,0 +1,98 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+.emtyspace {
+    width: 900px;
+    height: 900px;
+    position: relative;
+    /* background-color: red; */
+}
+.top {
+    width: 910px;
+    height: 90px;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-between;
+}
+.column-t {
+    height: 90px;
+    width: 90px;
+    /* border: 1px solid black; */
+}
+.right {
+    width: 720px;
+    height: 90px;
+    /* border: 2px solid blue; */
+    display: flex;
+    transform: rotate(90deg);
+    position: relative;
+    top: 316px;
+    left: 496px;
+}
+.column-r {
+    height: 100%;
+    width: 12.5%;
+    /* border: 1px solid black; */
+}
+.left {
+    width: 720px;
+    height: 90px;
+    /* border: 2px solid blue; */
+    display: flex;
+    transform: rotate(90deg);
+    position: relative;
+    top: 135px;
+    right: 314px;
+}
+.column-l {
+    height: 100%;
+    width: 12.5%;
+    /* border: 1px solid black; */
+}
+.bottom {
+    width: 900px;
+    height: 90px;
+    /* border: 1px solid black; */
+    position: relative;
+    top: 629px;
+    display: flex;
+}
+.column-b {
+    height: 100%;
+    width: 10%;
+    /* border: 1px solid black; */
+}
+.start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
+}
+.pstart {
+    color: red;
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+.emty {
+    box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
+    background-color: wheat;
+}
+.pause {
+    background-color: greenyellow;
+    box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);  
+}
+/* .fa-star {
+    width: 50px;
+    height: 50px;
+} */
