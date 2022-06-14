@@ -12,7 +12,7 @@ body {
     /* background-color: red; */
 }
 .top {
-    width: 910px;
+    width: 909px;
     height: 90px;
     /* border: 2px solid blue; */
     display: flex;
@@ -85,6 +85,9 @@ body {
     -webkit-box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
     background-color: wheat;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
 }
 .pause {
     background-color: greenyellow;
@@ -95,5 +98,26 @@ body {
 .fa-star {
     color: blue;
     position: absolute;
-    top: 5px;
+    top: 40px;
     left: 540px;}
+
+.btn1 {
+    position: absolute;
+    top: 35px;
+    left: 300px;
+}
+
+.btn2 {
+    width: 100px;
+    height: 75px;
+    box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
+    background-color: red;
+    cursor: pointer; 
+}
+.btn2:hover {
+    box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75) inset;
+-webkit-box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75) inset;
+-moz-box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75) inset;
+}
